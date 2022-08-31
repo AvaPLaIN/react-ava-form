@@ -1,8 +1,8 @@
 declare const useForm: () => {
     onSubmit: (event: React.FormEvent<HTMLFormElement>) => {};
-    register: (id: string, defaultValue?: string) => {
+    register: (id: string, defaultValue?: string | number) => {
         onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-        defaultValue: string | undefined;
+        defaultValue: string | number | undefined;
     };
     unregister: (id: string) => void;
     getFormValues: () => {};
