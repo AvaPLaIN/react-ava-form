@@ -4,6 +4,16 @@
   "private": false,
   "main": "lib/index.js",
   "license": "MIT",
+  "author": "AvaPLaIN",
+  "keywords": [
+    "react",
+    "hooks",
+    "forms"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaPLaIN/react-ava-form"
+  },
   "directories": {
     "lib": "lib"
   },
