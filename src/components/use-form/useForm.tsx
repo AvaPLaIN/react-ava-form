@@ -36,7 +36,7 @@ const useForm = () => {
     return !!currentValues[id]?.value;
   };
 
-  const register = (id: string, defaultValue?: string) => {
+  const register = (id: string, defaultValue?: string | number) => {
     if (!hasRegistered(id)) {
       handleFirstRegister(id);
       values.current = getUpdatedValues(values.current, id, {
